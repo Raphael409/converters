@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter web application</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="units">Select the units: </label>
+        <select name="units" id="units">
+            <option value="u1">Area</option>
+            <option value="u2">Mass</option>
+            <option value="u3">Length</option>
+            <option value="u3">Temperature</option>
+            <option value="u3">Plane angle</option>
+            <option value="u3">Data storage</option>
+        </select>
+
+        <br><br>
+        <label for="initial unit">Convert from: </label>
+        <select name="initial unit" id="initial unit">
+            <option value="in1">square kilometre</option>
+            <option value="in2">square metre</option>
+            <option value="in3">square mile</option>
+            <option value="in4">square foot</option>
+        </select>
+
+        <br><br>
+        <label for="final unit">Convert to: </label>
+        <select name="final" id="final unit">
+            <option value="fn1">square kilometre</option>
+            <option value="fn2">square metre</option>
+            <option value="fn3">square mile</option>
+            <option value="fn4">square foot</option>
+        </select>
+
+        <br><br>
+        <label for="input">Enter Value</label>
+        <input type="number" id="input" name="input">
+
+        <br><br>
+        <button>Convert</button>
+        <button>Reset</button>
+        <button>Exit</button>
+    </form>
+</body>
+
+</html>
